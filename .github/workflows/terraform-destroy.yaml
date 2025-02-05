@@ -14,7 +14,7 @@ jobs:
 
         defaults:
             run:
-                working-directory: bootstrap/terraform
+                working-directory: terraform
                 shell: bash
         steps:
             - uses: actions/checkout@v2.7.0
